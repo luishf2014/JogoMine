@@ -113,12 +113,12 @@ fun GameScreen() {
                     }
             )
 
-            // Exibe a contagem de cliques e o alvo
-            Text(
-                text = "${clicks.value}/${targetClicks.value}",
-                fontSize = 24.sp,
-                modifier = Modifier.padding(16.dp)
-            )
+            // Exibe a contagem de cliques e o alvo ( Apenas para depruração )
+            // Text(
+            //     text = "${clicks.value}/${targetClicks.value}",
+            //     fontSize = 24.sp,
+            //     modifier = Modifier.padding(16.dp)
+            // )
 
             // Botão para mostrar o diálogo de desistência
             Button(
